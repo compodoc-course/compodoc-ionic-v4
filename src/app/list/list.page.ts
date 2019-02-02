@@ -6,6 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['list.page.scss']
 })
 export class ListPage implements OnInit {
+  /**
+   * @ignore
+   */
   private selectedItem: any;
   private icons = [
     'flask',

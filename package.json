@@ -10,7 +10,13 @@
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "compodoc": "npx compodoc -p src/tsconfig.app.json"
+    "compodoc": "npx compodoc -p src/tsconfig.app.json",
+    "ejercicio1": "npx compodoc -p src/tsconfig.app.json -d ejercicio1 --customFavicon ./ionic-favicon.ico",
+    "ejercicio2": "npx compodoc -p src/tsconfig.app.json -d ejercicio2",
+    "ejercicio3": "npx compodoc -p src/tsconfig.app.json -d ejercicio3 --hideGenerator -y ./css",
+    "ejercicio4": "npx compodoc -p src/tsconfig.app.json -d ejercicio4 --hideGenerator -y ./css",
+    "ejercicio5": "npx compodoc -p src/tsconfig.app.json -d ejercicio5 --includes ./docs-aditional",
+    "ejercicio6": "npx compodoc -p src/tsconfig.app.json -d ejercicio6 --includesName \"Secciones de la aplicación\" --includes ./docs-aditional"
   },
   "private": true,
   "dependencies": {
